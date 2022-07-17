@@ -1,0 +1,134 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    color: #40514e;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0px auto;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+/*design top cantainer*/
+.top-container {
+    background-color: #eaf9e5;
+    padding-top: 100px;
+    width: 100vw;
+    height: auto;
+    position: relative;
+}
+
+.middle-container {
+    margin: 100px 0px;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0px 20px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 260px;
+    bottom: 325px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 325px;
+    top: 40px;
+}
+
+a {
+    color: #11999E;    
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color:  #0a595c;    
+}
+
+.copyright{
+    color: #eaf6f6;
+    font-size: 1rem;   
+    padding: 20px 0px;
+}
+
+hr {
+    border: 4px dotted #568181;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.chilli-img {
+    width: 25%;
+    float: right;
+    margin-left: 2rem;
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 2rem;
+}
+
+.contact-me {
+    margin: 20px auto;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 20px auto;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+p{
+    line-height: 2;
+}
+
+.contact-msg{
+    width: 40%;
+    margin: 40px auto 60px;
+}
